@@ -15,10 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 @SuperBuilder
 public class Cliente extends BaseEntity {
-<<<<<<< HEAD
-=======
 
->>>>>>> fe7712d5133bc93aa01b9cb78db02c31bc95f005
     @Column(nullable = false, length = 100)
     private String nombre;
 

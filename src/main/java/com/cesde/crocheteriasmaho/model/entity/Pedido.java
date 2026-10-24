@@ -16,10 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 @SuperBuilder
 public class Pedido extends BaseEntity {
-<<<<<<< HEAD
-=======
 
->>>>>>> fe7712d5133bc93aa01b9cb78db02c31bc95f005
     @Column(nullable = false, precision = 10)
     private BigDecimal total;
 
@@ -39,7 +36,3 @@ public class Pedido extends BaseEntity {
     )
     private List<Producto> productos;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> fe7712d5133bc93aa01b9cb78db02c31bc95f005
